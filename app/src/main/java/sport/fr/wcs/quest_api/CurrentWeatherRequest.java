@@ -31,4 +31,6 @@ public class CurrentWeatherRequest extends GoogleHttpClientSpiceRequest<CurrentW
                 .parseAs(getResultType());
         return request;
     }
+
+
 }
